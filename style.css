@@ -1,0 +1,13 @@
+.Logo {
+    height: 4rem;
+    width: 9rem;
+}
+.bg-dark {
+    background-color: #29573A!important;
+}
+.navbar-brand{
+    padding: 0rem;
+}
+.navbar{
+    padding: 0rem;
+}
