@@ -13,7 +13,9 @@ integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zF
     <title>Recipe</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <div id="page-container">
+    <div id="content-wrap">
+    <nav class="nav navbar-expand-sm bg-dark navbar-dark sticky-top">
         <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" class ="Logo"></a>
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -24,23 +26,25 @@ integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zF
           </li>
         </ul>
       </nav>    
-      <div class="row">
-        <div class="col-lg-3 col-md-3">
-            <img src="images/1c2f1e00cfaa7b5a2302e85b063fdfcf.jpg">
-            <div class="beschreibung">Step 1</div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-2">
+            <img class="ornaments" src="images/ornaments-left.png">
           </div>
-        <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-3 col-md-3">
-          <img src="images/300144314018201.webp">
-          <div class="beschreibung">Step 2</div>
+          <div class="col-lg-6 col-md-2">
+            <img class="note" src="images/note.png">
+          </div>
+          <div class="col-lg-3 col-md-2">
+            <img class="ornaments" src="images/ornaments-right.png">
+          </div>
         </div>
-        <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-3 col-md-3">
-          <img src="images/1.jpg">
-          <div class="beschreibung">Step 3</div>
+      </div>
+    </div>    
+      <footer id="footer" class="page-footer font-medium special-color-dark pt-4">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://www.accenture.com/ch-en"> accenture.com</a>
         </div>
-        </div>
-    </div> 
-
+      </footer>
+    </div>    
 </body>
 </html>
