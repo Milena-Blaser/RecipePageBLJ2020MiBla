@@ -17,13 +17,15 @@
     padding: 0rem;
 }
 .nav-links{
-    text-align: center;
-    padding-top: 1rem;
+    
     display: block;
-    padding: .5rem 1rem;
+    padding: .5rem .5rem;
     color: rgba(255,255,255,.5);
     text-decoration: none;
-    margin-top: 0.5rem;
+    margin-top: 0.57rem;
+}
+.nav-link{
+margin-top: -0.25rem;
 }
 
 .misteltoe{
@@ -79,9 +81,21 @@ h3{
     top: 10rem;
     left:4rem;
 }
+.note1{
+    position: absolute;
+    top: 50rem;
+    z-index: -12;
+    left: 4rem;
+}
 #footer{
     position: absolute;
     bottom:-30rem;
+    width: 100%;
+    height: 2.5rem;  
+}
+#footer1{
+    position: absolute;
+    bottom:-72rem;
     width: 100%;
     height: 2.5rem;  
 }
