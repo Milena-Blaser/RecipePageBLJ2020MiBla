@@ -59,6 +59,12 @@ h3{
     font-size: 4rem;
     font-family: 'Bad Script', cursive;
 }
+.text{
+    font-family: 'Bad Script', cursive;
+    position:absolute;
+    top: 16rem;
+    left:6rem;
+}
 .footer-copyright{
     background-color: #29573A;
     color: snow;
@@ -113,6 +119,21 @@ h3{
       color:snow;
       text-decoration: none;
   }
+  .cookies{
+    height: 17rem;
+    width: 14rem;
+    position: absolute;
+    top: 13rem;
+    left: 16rem;
+  }
+  .cookies1{
+    height: 17rem;
+    width: 14rem;
+    position: absolute;
+    top: 13rem;
+    left: 35rem;
+  }
+
 @media only screen and (min-width:1200px) {
     .col-lg-1 {
     width: 10%;
