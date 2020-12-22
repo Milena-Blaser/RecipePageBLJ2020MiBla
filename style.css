@@ -32,15 +32,18 @@
 .wreath{
     display: block;
     margin:auto;
+  
     
 }
 h3{
     position: absolute;
-    bottom:17rem;
+    bottom:9rem;
     left:30rem;
     font-size: 4rem;
     font-family: 'Bad Script', cursive;
-
+}
+.footer-copyright{
+    background-color: #29573A;
 }
 
 @media only screen and (min-width:1200px) {
