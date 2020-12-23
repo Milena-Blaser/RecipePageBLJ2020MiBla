@@ -62,8 +62,20 @@ h3{
 .text{
     font-family: 'Bad Script', cursive;
     position:absolute;
-    top: 16rem;
-    left:6rem;
+    top: 23rem;
+    left:4rem;
+    font-size: 2rem;
+}
+h1{
+    font-family: 'Bad Script', cursive;
+    position: absolute;
+    top: 19rem;
+    left: 7rem;
+    font-size: 3rem;
+    z-index: 2;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #bd2130;
 }
 .footer-copyright{
     background-color: #29573A;
@@ -81,21 +93,56 @@ h3{
     height:30rem;
     width:20rem;
     position:fixed;
+    z-index: 1;
 }
 .note{
     position: absolute;
-    top: 10rem;
-    left:4rem;
+    top: 13rem;
+    left:2rem;
+    width:100%;
 }
 .note1{
     position: absolute;
     top: 50rem;
     z-index: -12;
-    left: 4rem;
+    left: 2rem;
+    width:100%;
+}
+.title{
+    font-family: 'Bad Script', cursive;
+    position: absolute;
+    top: 7rem;
+    left: 20rem;
+    font-size: 3rem;
+    color: #f8f9fa;
+}
+.frame{
+    height: 19rem;
+    width: 16rem;
+    position: absolute;
+    top: 12rem;
+    left: 15rem;
+    background-color: snow;
+    z-index: 0;
+    opacity: 84%;
+}
+.frame1{
+    height: 19rem;
+    width: 16rem;
+    position: absolute;
+    top: 12rem;
+    left: 34rem;
+    background-color: snow;
+    z-index: 0;
+    opacity: 84%;
+}
+.item{
+    height:12rem;
+    width: 6rem;
 }
 #footer{
     position: absolute;
-    bottom:-30rem;
+    bottom:-33rem;
     width: 100%;
     height: 2.5rem;  
 }
@@ -125,6 +172,7 @@ h3{
     position: absolute;
     top: 13rem;
     left: 16rem;
+    z-index: 2;
   }
   .cookies1{
     height: 17rem;
@@ -132,6 +180,10 @@ h3{
     position: absolute;
     top: 13rem;
     left: 35rem;
+    z-index: 2;
+  }
+  ul.a {
+    list-style-type: circle;
   }
 
 @media only screen and (min-width:1200px) {
@@ -204,3 +256,40 @@ h3{
     width: 100%;
     }
     }
+    @media only screen nand (max-width:989px){
+      
+        .col-sm-1 {
+        width: 10%;
+        }
+        .col-sm-2 {
+        width: 20%;
+        }
+        .col-sm-3 {
+        width: 30%;
+        }
+        .col-sm-4 {
+        width: 40%;
+        }
+        .col-sm-5 {
+        width: 50%;
+        }
+        .col-sm-6 {
+        width: 60%;
+        }
+        .col-sm-7 {
+        width: 70%;
+        }
+        
+        .col-sm-9 {
+        width: 85%;
+        }
+        .col-sm-10 {
+        width: 80%;
+        }
+        .col-sm-11 {
+        width: 90%;
+        }
+        .col-sm-12 {
+        width: 100%;
+        }
+        }
